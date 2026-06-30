@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Datasets & large media (keep out of git; use a link or LFS)
+datasets/
+data/
+images/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.zip
+*.tar
+*.tar.gz
+
+# YOLO / training outputs
+runs/
+wandb/
+*.cache
+
+# Model weights — track with Git LFS if you want them in the repo (see README)
+# *.pt
+# *.pth
+# *.onnx
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
